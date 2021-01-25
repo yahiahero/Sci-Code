@@ -1,0 +1,240 @@
+.wrapper {
+  height: calc(100vh - 160px);
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.wrapper .mainBoard {
+  position: relative;
+  height: calc(100vh - 180px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .mainBoard .verticalWrapper {
+  position: relative;
+  width: 5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper .mainBoard .board {
+  height: 80vh;
+  width: 70%;
+  background-color: #050711;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.wrapper .mainBoard .board .display {
+  height: calc(78vh - 5vh);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wrapper .mainBoard .board .display .displayCharts,
+.wrapper .mainBoard .board .display .displayInfo {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayCharts
+  .upperChart,
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayCharts
+  .lowerChart {
+  height: 48%;
+  width: 98%;
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper {
+  height: 40%;
+  width: 98%;
+  background-color: #0b0e19;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper
+  .chartWrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 50%;
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper
+  .chartWrapper
+  .donutLength {
+  position: relative;
+  width: 30px;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32px;
+  color: #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
+}
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper
+  .chartInfoWrapper {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper
+  .chartInfoWrapper
+  h2 {
+  padding-top: 20px;
+  font-size: 22px;
+  color: #849fb4;
+  font-weight: 600;
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper
+  .chartInfoWrapper
+  .chartStats {
+  position: relative;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper
+  .chartInfoWrapper
+  .chartStats
+  p {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-around;
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: 600;
+  transform: translate(0, -15px);
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper
+  .chartInfoWrapper
+  .chartStats
+  p
+  span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+.companies {
+  border-right: 7px solid rgb(255, 86, 238);
+}
+
+.individuals {
+  border-right: 7px solid rgb(78, 255, 207);
+}
+
+.wrapper
+  .mainBoard
+  .board
+  .display
+  .displayInfo
+  .donutWrapper
+  .chartInfoWrapper
+  .chartStats
+  p
+  span {
+  padding-right: 5px;
+}
+
+.wrapper .mainBoard .board .display .displayInfo .meetings {
+  height: 40%;
+  width: 98%;
+}
+
+.wrapper .mainBoard .board .display .displayInfo .sort {
+  height: 15%;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
